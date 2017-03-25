@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/captureReceipt.iml" filepath="$PROJECT_DIR$/captureReceipt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/scanlibrary/scanlibrary.iml" filepath="$PROJECT_DIR$/libs/scanlibrary/scanlibrary.iml" />
+    </modules>
+  </component>
+</project>

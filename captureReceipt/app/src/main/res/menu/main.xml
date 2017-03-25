@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/addGroup"
+        android:icon="@drawable/ic_create_new_folder_black_24dp"
+        android:title="action_addGroup"
+        app:showAsAction="always" />
+    <item android:id="@+id/gridToggle"
+        android:icon="@drawable/ic_apps_black_24dp"
+        android:title="action_gridView"
+        app:showAsAction="always" />
+
+    <!-- Location Found -->
+    <item android:id="@+id/listToggle"
+        android:icon="@drawable/ic_menu_black_24dp"
+        android:title="action_listView"
+        app:showAsAction="always" />
+</menu>

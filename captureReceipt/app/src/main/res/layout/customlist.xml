@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="horizontal"
+    android:weightSum="4">
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imageView" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:weightSum="3">
+        <TextView android:id="@+id/pic_title"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="title"
+            android:textSize="20dp"/>
+        <TextView android:id="@+id/pic_address"
+            android:layout_height="20dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#C39BD3"
+            android:text="address"/>
+        <TextView android:id="@+id/pic_date"
+            android:layout_height="20dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FF5733"
+            android:text="date"/>
+    </LinearLayout>
+
+</LinearLayout>

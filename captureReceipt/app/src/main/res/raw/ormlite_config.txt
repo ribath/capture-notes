@@ -1,0 +1,43 @@
+# --table-start--
+dataClass=com.chtl.spike.ListItems
+tableName=ListofPicture
+# --table-fields-start--
+# --field-start--
+fieldName=groupId
+columnName=groupId
+# --field-end--
+# --field-start--
+fieldName=name
+columnName=name
+# --field-end--
+# --field-start--
+fieldName=address
+columnName=address
+# --field-end--
+# --field-start--
+fieldName=date
+columnName=date
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+ 
+#################################
+# --table-start--
+dataClass=com.chtl.spike.GroupReceipt
+tableName=GroupTable
+# --table-fields-start--
+# --field-start--
+fieldName=groupId
+columnName=groupId
+# --field-end--
+# --field-start--
+fieldName=name
+columnName=name
+# --field-end--
+# --field-start--
+fieldName=date
+columnName=date
+# --field-end--
+# --table-fields-end--
+# --table-end--
